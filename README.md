@@ -14,18 +14,14 @@ http://localhost
 
 # 使用技術
 ・Laravel 8
-
 ・nginx 1.21.1
-
-・php 8.1.31　（php 7.4.9よりバックアップ）
-
+・php 8.1.31　（php 7.4.9よりバージョンアップ）
 ・html
-
 ・css
-
 ・mysql 8.0.26
 
 # テーブル設計
+
 
 
 # ER図
@@ -39,16 +35,12 @@ docker-compose up -d --build
 
 3 Laravelパッケージをインストールする
 docker-compose exec php bash
-
 でPHPコンテナにログインし
-
 composer install
 
 4 .envファイルを作成する
 PHPコンテナにログインした状態で
-
 cp .env.example .env
-
 作成した.envファイルの該当欄を下記のように変更
 
 DB_HOST=mysql
