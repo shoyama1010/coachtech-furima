@@ -51,15 +51,7 @@ DB_USERNAME=laravel_user
 
 DB_PASSWORD=laravel_pass
 
-MAIL_MAILER=smtp
-
-MAIL_HOST=mail
-
-MAIL_PORT=1025
-
-MAIL_FROM_ADDRESS=tubatest@gmail.com
-
-MAIL_FROM_NAME="${APP_NAME}"
+認証：fortifyパッケージ追加
 
 .envファイルの最後に追加
 
